@@ -1,7 +1,7 @@
 # Advent of Code - Learning Zig
 
 This project is dedicated to solving the Advent of Code challenges while learning the Zig programming language. Each directory represents a day of the challenge, with the corresponding Zig code stored in a `.zig` file.
-It's represent my own learning path.
+It represents my learning path.
 
 ## Project Structure
 
