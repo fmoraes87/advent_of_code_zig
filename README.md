@@ -9,16 +9,16 @@ The project structure is organized as follows:
 
 ```
 - day1
-  -- day1.zig
+  -- challenge.zig
 - day2
-  -- day2.zig
+  -- challenge.zig
 ```
 
 - `day1/`: Contains the solution for day 1's challenge.
-  - `day1.zig`: Zig file with the solution for day 1's challenge.
+  - `challenge.zig`: Zig file with the solution for day 1's challenge.
 
 - `day2/`: Contains the solution for day 2's challenge.
-  - `day2.zig`: Zig file with the solution for day 2's challenge.
+  - `challenge.zig`: Zig file with the solution for day 2's challenge.
 
 ## Usage Instructions
 
@@ -38,7 +38,7 @@ To compile and run the challenges, navigate to the corresponding day's directory
 
 ```bash
 cd day1
-zig run day1.zig
+zig run challenge.zig
 ./day1
 ```
 
@@ -46,7 +46,7 @@ Repeat the process for other days:
 
 ```bash
 cd ../day2
-zig run day2.zig
+zig run challenge.zig
 ./day2
 ```
 
