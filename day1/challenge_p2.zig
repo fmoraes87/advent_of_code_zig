@@ -10,7 +10,7 @@ fn startsWith(pointerToSlice: *[]const u8, prefix: []const u8) bool {
 }
 
 pub fn main() anyerror!void {
-    const fname = "../puzzle.txt";
+    const fname = "puzzle.txt";
     var f = try fs.cwd().openFile(fname, fs.File.OpenFlags{});
     defer f.close();
 

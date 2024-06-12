@@ -2,7 +2,7 @@ const std = @import("std");
 const fs = std.fs;
 
 pub fn main() anyerror!void {
-    const fname = "./puzzle.txt";
+    const fname = "puzzle.txt";
     var f = try fs.cwd().openFile(fname, fs.File.OpenFlags{});
     defer f.close();
     var buf: [std.mem.page_size]u8 = undefined;
