@@ -38,7 +38,7 @@ To compile and run the challenges, navigate to the corresponding day's directory
 
 ```bash
 cd day1
-zig build-exe day1.zig
+zig run day1.zig
 ./day1
 ```
 
@@ -46,7 +46,7 @@ Repeat the process for other days:
 
 ```bash
 cd ../day2
-zig build-exe day2.zig
+zig run day2.zig
 ./day2
 ```
 
